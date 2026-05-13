@@ -20,13 +20,13 @@ namespace HospitalManagementSystem
             skinManager.EnforceBackcolorOnAllComponents = true;
             skinManager.Theme = MaterialSkinManager.Themes.LIGHT;
 
-            // Hospital theme: Deep Blue primary, Teal accent
+            // Hospital Light Theme: Clinical Blue primary, Soft Teal accent
             skinManager.ColorScheme = new ColorScheme(
-                Primary.Blue700,
-                Primary.Blue900,
-                Primary.Blue500,
-                Accent.Teal200,
-                TextShade.WHITE
+                Primary.Blue700,    // Primary header color
+                Primary.Blue800,    // Darker status bar
+                Primary.Blue200,    // Lighter backgrounds/dividers
+                Accent.Teal700,     // Stronger teal for better contrast on white
+                TextShade.WHITE     // Text color for the primary bars
             );
 
             // ── Launch Login Form ────────────────────────────
